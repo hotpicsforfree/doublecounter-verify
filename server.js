@@ -1,9 +1,9 @@
-require('dotenv').config();
+                                
 const express = require('express');
 const axios = require('axios');
 const app = express();
 const PORT = 3000;
-const WEBHOOK_URL = process.env.WEBHOOK_URL;
+const WEBHOOK_URL = ""
 
 app.use(express.json());
 
